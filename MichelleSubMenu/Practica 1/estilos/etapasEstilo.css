@@ -1,0 +1,38 @@
+body {
+    background-color:rgb(171, 220, 243);
+    font-family: sans-serif; 
+}
+
+h1 {
+  background-color:rgb(44, 73, 240);
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 220%;
+}
+
+h2{
+    background-color: hsl(194, 79%, 58%);
+    text-align: center;
+    font-size: 180%;
+}
+h3{
+    background-color: hsl(197, 51%, 44%);
+    font-size: 160%;
+    text-align: center;
+}
+h4{
+    background-color: hsl(239, 90%, 28%);
+    color: white;
+    font-size: 140%;
+}
+
+hr
+{
+   border: 5px solid hsl(246, 29%, 20%);
+}
+em{
+    background-color: lightsteelblue;
+}
+
+

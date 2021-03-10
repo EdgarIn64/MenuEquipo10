@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(287, 37%, 79%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+h1 {
+    color: #070707;
+    font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px #ca0cca;
+}
+
+h3 {
+    background-color: hsl(0, 41%, 43%);
+    color: white;
+    font-size: 200%;
+    clear: both;
+}
+
+h4 {
+    background-color: hsl(337, 37%, 46%);
+    color: black;
+    font-size: 130%;
+    text-decoration:underline; 
+}
+
+p {
+    background-color: hsl(0, 53%, 58%);
+    font-size: 120%;
+}
+
+em {
+    color: hsl(344, 91%, 17%);
+    font-style: normal;
+    font-weight: bold;
+}
+
+strong {
+    color: white;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+address {
+    background-color: white;
+    font-weight:lighter;
+    text-align: center;
+}
+img {
+    display:block;
+    margin:auto;
+}
+hr{
+  
+  color: hsl(338, 87%, 9%);
+}
+table{
+    background:  hsl(0, 53%, 58%);
+    margin: 0 auto;
+    border-collapse: collapse;
+    
+}
+#regresar{
+    display: block;
+    float: left; 
+    
+}
+#regresar a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: rgb(0, 0, 0) 3px solid;
+    color:#ffffff;
+    padding: 5px;
+    background-color: black;
+}
+#regresar a:hover{
+    color:rgb(255, 255, 255);
+    background-color: mediumvioletred;
+    border: mediumvioletred 3px solid;
+}

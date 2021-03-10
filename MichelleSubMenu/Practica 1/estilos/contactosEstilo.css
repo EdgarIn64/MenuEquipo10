@@ -1,0 +1,27 @@
+body {
+  background-color: hsl(286, 66%, 54%);
+  font-family: sans-serif; 
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 210%;
+  letter-spacing: 10px;
+}
+
+h3{
+  padding: 0.2rem 0.5rem;
+  background-color:hsl(280, 93%, 28%);
+  color: white;
+  font-size: 200%;
+}
+p{
+	text-align: center;
+	font-size: 150%;
+	background-color: hsl(200, 15%, 75%);
+}
+em{
+	background-color: white;
+}

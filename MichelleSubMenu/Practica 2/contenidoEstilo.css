@@ -1,0 +1,35 @@
+body{
+    background-color: violet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    color: #070707;
+    font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px #661e60;
+}
+iframe {
+    align-content: center;
+} 
+
+#regresar{
+    display: block;
+    float: left; 
+    
+}
+#regresar a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: rgb(0, 0, 0) 3px solid;
+    color:#ffffff;
+    padding: 5px;
+    background-color: black;
+}
+#regresar a:hover{
+    color:rgb(255, 255, 255);
+    background-color: mediumvioletred;
+    border: mediumvioletred 3px solid;
+}

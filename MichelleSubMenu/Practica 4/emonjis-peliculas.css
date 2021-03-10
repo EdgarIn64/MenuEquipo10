@@ -1,0 +1,75 @@
+
+body {
+  background-color: hsl(347, 100%, 89%);
+  font-family: sans-serif;
+}
+
+h1 {
+  color: hsl(0, 100%, 100%);
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+  color:rgb(5, 5, 5);
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+p.intro {
+  color: hsl(337, 94%, 41%);
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+summary {
+  font-size: 4rem;
+}
+
+span.par {
+  background-color: rgb(240, 123, 108);
+}
+
+span.impar {
+  background-color: hsl(340, 46%, 70%);
+}
+header{
+  background-color: rgb(163, 39, 81);
+  padding: 15px;
+}
+footer{
+ 
+  padding: 15px;
+  border-top: 5px solid hsl(0, 100%, 27%);
+  clear: both;
+  text-align: center;
+}
+footer p{
+  font-style: italic;
+  font-size: 1.5rem;
+  color: hsl(0, 100%, 27%);
+  
+}
+
+#regresar{
+  display: block;
+  float: left; 
+  margin-bottom: 1rem;
+  
+}
+#regresar a{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border: rgb(0, 0, 0) 3px solid;
+  color:#ffffff;
+  padding: 5px;
+  background-color: black;
+}
+#regresar a:hover{
+  color:rgb(255, 255, 255);
+  background-color: mediumvioletred;
+  border: mediumvioletred 3px solid;
+}

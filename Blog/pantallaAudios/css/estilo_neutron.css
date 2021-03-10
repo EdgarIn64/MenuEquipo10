@@ -1,0 +1,247 @@
+article,
+aside,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+
+
+article{
+	padding: 0px 15px;
+	margin-bottom: 64px;
+	font-size: 2rem; 
+    text-align: center;
+	background-color: rgb(120, 100, 200);
+  
+}
+
+#cabecera {
+	background: rgb(100, 50, 200);
+	border: 1px solid #999999;
+	padding: 10px;
+	color: rgb(240, 240, 240);
+}
+
+#agrupar {
+	width: 90%;
+	margin: 10px auto;
+	text-align: left;
+	padding: 20px;
+	min-width: 200px;
+}
+
+#seccion {
+	float: left;
+	width: 64%;
+	margin: 10px;
+}
+
+#columna {
+	float: right;
+	width: 28%;
+	margin: 20px 0px;
+	padding: 20px;
+	background: rgb(10, 200, 120);
+}
+
+.minifoto{
+	height: 50%;
+	width: 50%;
+}
+
+figure{
+	text-align: center;	
+}
+
+body{
+	margin: 10px;
+	background-color: lightblue;
+}
+
+
+h1{
+	text-align: center;
+	font-size: 3rem;
+	display: block;
+}
+
+article h1{
+	background-color: rgb(150, 0, 180);
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+
+footer{
+	font-size: 1.5rem;
+	color: rgb(50,0,100);
+    margin-bottom: 22px; 
+    margin-top: 20px;
+    text-align: right; 
+}
+
+h2{
+	font-size: 2rem;
+	text-align: center;
+}
+
+#pie {
+	clear: both;
+	text-align: center;
+	padding: 50px;
+	border-top: 2px solid black;
+	background-color: rgb(150,100,170);
+	font-size: 2rem;
+}
+
+.minititulo{
+	background-color: rgb(70, 64, 200);
+	padding: 10px;
+	color: white;
+}
+
+h3{
+	font-size: 1.5rem;	
+}
+
+blockquote{
+	font-size: 1.5rem;
+	text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px #8dffcd;	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkblue;
+	font-size: 1.5rem;    
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #eb9696}
+
+.dropdown:hover .dropdown-content {
+    display: block;<
+}
+
+#contactos {
+	clear: both;
+	float: center;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 20px;
+	background: #AAAACC;
+}
+
+
+
+.imagen_integrante{
+    width: 30%;
+    height: 30%;
+    display: block;
+    float: left;
+  }
+
+.audio_formato{
+    background-color: rgb(185, 181, 252);
+    display:inline-block;
+    width: 90%;
+    height: 100%;
+    border: 2px solid rgb(172, 143, 250);
+    border-style: dashed;
+    border-radius: 10px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+	margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla_principal{
+
+    float: left;
+    border-radius: 14px;
+    margin-left: 30px;
+    
+    margin-top: 20px;
+    width: 65%;
+    padding: 10px;
+    background-color: rgb(172, 143, 250);
+    text-align: center;
+    
+}
+.tabla_principal th{
+    text-align: center;
+    font-size: 1.3rem;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    
+}
+.tabla_principal td{
+    text-align: center;
+}
+audio{
+    width:90%;
+}
+.tabla_segunda{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    width: 100%;
+
+}
+.imagen_audio{
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+}
+h5{
+    font-size: 20px;
+    font-weight: normal;
+}
+span{
+    font-style: italic;
+    font-weight: bolder;
+}

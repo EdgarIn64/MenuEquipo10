@@ -1,0 +1,69 @@
+body {
+  background-color: hsl(239, 97%, 76%);
+  font-family: sans-serif; 
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+h2 {
+  clear: both;
+  padding: 0.2rem 0.5rem;
+  color: black;
+  font-size: 200%;
+
+}
+
+h3 {
+  clear: both;
+  padding: 0.2rem 0.5rem;
+  background-color:hsl(329, 34%, 81%);
+  color: white;
+  font-size: 150%;
+  margin-left: 10%;
+}
+
+h4 {
+  background-color:hsl(329, 34%, 81%);
+  font-size: 120%;
+  text-align: center;;
+}
+
+em {
+  background-color: white;
+}
+
+hr {
+  border: 10px solid hsl(61, 81%, 58%);
+  border-radius: 5px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#regresar{
+  display: block;
+  float: left; 
+  margin-bottom: 1rem;
+  
+}
+#regresar a{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border: rgb(0, 0, 0) 3px solid;
+  color:#ffffff;
+  padding: 5px;
+  background-color: black;
+}
+#regresar a:hover{
+  color:rgb(255, 255, 255);
+  background-color: mediumvioletred;
+  border: mediumvioletred 3px solid;
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: papayawhip;
+}
+h1{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;  
+  }
+th{
+    background-color: rgb(197, 86, 86);
+}
+address {
+    
+    background-color: white;
+    font-weight:lighter;
+    text-align: center;
+}
+#regresar{
+    display: block;
+    float: left; 
+    
+}
+#regresar a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: rgb(0, 0, 0) 3px solid;
+    color:#ffffff;
+    padding: 5px;
+    background-color: black;
+}
+#regresar a:hover{
+    color:rgb(255, 255, 255);
+    background-color: mediumvioletred;
+    border: mediumvioletred 3px solid;
+}
