@@ -1,0 +1,87 @@
+
+h1{
+color:mediumslateblue;
+font-size: 2rem;
+font-family: monospace;
+
+}
+
+th{
+color:white;
+    font-size: 2rem;
+background-color: orchid;
+font-family: cursive;
+font-weight:900;
+    
+}
+
+
+td{
+color: black;
+font-size: 1 rem;
+background-color: lavender;
+font-family:helvetica ; 
+font-style:italic;
+}
+
+table{border: 3px solid black;
+
+}
+
+
+
+
+       
+
+
+3rem;
+    font-variant: small-caps;
+}
+
+p {
+    line-height: 200%;
+    text-indent: 3em;
+}
+
+strong {
+    color: chocolate;
+}
+
+em {
+    background-color: white;
+    color: green;
+}
+
+span {
+    color: red;
+    font-family: "Comic Sans", cursive;
+}
+
+time {
+    color: darkorange;
+}
+
+address {
+    font-size: 0.8rem;
+    text-align: center;
+}
+ize: 0.8rem;
+    text-align: center;
+}
+ 0.8rem;
+    text-align: center;
+}
+}
+}
+
+center;
+}
+ize: 0.8rem;
+    text-align: center;
+}
+ 0.8rem;
+    text-align: center;
+}
+}
+}
+
